@@ -34,6 +34,7 @@ export class HomeComponent implements OnInit {
   carrierText:String = 'My initial Goal';
   carrierGoalArray = [];
   constructor(private _data: DataService) {
+    
   
    }
   ngOnInit() {
